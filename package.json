@@ -18,9 +18,10 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@emotion/react": "^11.13.5",
-    "@emotion/styled": "^11.13.5",
-    "@mui/material": "^6.1.10",
+    "@emotion/react": "^11.0.0",
+    "@emotion/styled": "^11.0.0",
+    "@mui/icons-material": "^6.2.1",
+    "@mui/material": "^6.0.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
   },
@@ -39,10 +40,10 @@
     "typescript": "^5.7.2"
   },
   "peerDependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "@mui/material": "^6.0.0",
     "@emotion/react": "^11.0.0",
-    "@emotion/styled": "^11.0.0"
+    "@emotion/styled": "^11.0.0",
+    "@mui/material": "^6.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
   }
 }

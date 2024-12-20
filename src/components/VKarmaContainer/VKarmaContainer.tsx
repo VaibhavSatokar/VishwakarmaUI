@@ -1,13 +1,10 @@
 import React from "react";
-import { Container, ContainerProps } from "@mui/material";
+import { Container } from "@mui/material";
+import { IVKarmaContainerProps } from "./VKarmaContainer.types";
 
-// Define the types for the custom props
-export interface VKarmaContainerProps extends ContainerProps {
-  identity: string; // Unique identifier for the container
-  style?: React.CSSProperties; // Optional custom style
-}
 
-const VKarmaContainer: React.FC<VKarmaContainerProps> = ({
+
+const VKarmaContainer: React.FC<IVKarmaContainerProps> = ({
   identity,
   style,
   children,

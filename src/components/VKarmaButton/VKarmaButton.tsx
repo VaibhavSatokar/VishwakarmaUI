@@ -1,14 +1,10 @@
 import React from "react";
-import { Button, ButtonProps } from "@mui/material";
+import { Button } from "@mui/material";
+import { IVKarmaButtonProps } from "./VKarmaButton.types";
 
-// Define the types for the custom props
-export interface VKarmaButtonProps extends ButtonProps {
-  identity: string; // Unique identifier for the component
-  type?: "reset" | "submit" | "button"; // Standard button types
-  onClickHandler?: () => void; // Custom onClick handler (optional for form-related buttons)
-}
 
-const VKarmaButton: React.FC<VKarmaButtonProps> = ({
+
+const VKarmaButton: React.FC<IVKarmaButtonProps> = ({
   identity,
   onClickHandler,
   children,

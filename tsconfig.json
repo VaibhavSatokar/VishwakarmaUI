@@ -6,6 +6,9 @@
     "declarationDir": "./build", // Place declaration files inside build/types/
     "moduleResolution": "node",       // Node module resolution
     "esModuleInterop": true,          // Allow default imports from CommonJS
+    "target": "ESNext",
+    "module": "ESNext",
+    "skipLibCheck": true,
     "jsx": "react-jsx",               // JSX transform for React 17+
     "strict": true,                   // Enable strict type checking
     "paths": {
