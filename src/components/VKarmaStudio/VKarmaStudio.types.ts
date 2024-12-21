@@ -23,5 +23,7 @@ export interface IVKarmaContentPanelProps {
 
 export interface IVKarmaPanelProps extends IVKarmaExplorerSideToolbarProps, IVKarmaContentPanelProps {
   activePanel: string | null;
+  panelWidth?: string;
+  minPanelWidth?: string;
 }
 

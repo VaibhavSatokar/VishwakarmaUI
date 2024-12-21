@@ -33,7 +33,7 @@ const StyledToggleButtonGroup = styled(ToggleButtonGroup)(({ theme }) => ({
   },
 }));
 
-const VKarmaExplorerSideToolbar: React.FC<IVKarmaExplorerSideToolbarProps> = ({ value, onTabChange, TabsData }) => {
+const VKarmaExplorerSideToolbar: React.FC<IVKarmaExplorerSideToolbarProps> = ({ value, onTabChange, orientation, TabsData }) => {
   return (
     <Paper
       elevation={0}
@@ -44,6 +44,7 @@ const VKarmaExplorerSideToolbar: React.FC<IVKarmaExplorerSideToolbarProps> = ({ 
     >
       <StyledToggleButtonGroup
         size="small"
+        orientation={orientation}
         value={value}
         exclusive
         onChange={onTabChange}
