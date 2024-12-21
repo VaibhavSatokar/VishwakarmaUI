@@ -1,6 +1,6 @@
 import React from "react";
 import { Box } from "@mui/material";
-import { IVKarmaContentPanelProps } from "./VKarmaPanel.types";
+import { IVKarmaContentPanelProps } from "./VKarmaStudio.types";
 
 
 const VKarmaContentPanel: React.FC<IVKarmaContentPanelProps> = ({ value, panels }) => {

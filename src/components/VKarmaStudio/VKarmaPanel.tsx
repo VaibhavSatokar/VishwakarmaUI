@@ -2,7 +2,7 @@ import React from "react";
 import { Box, Divider } from "@mui/material";
 import VKarmaContentPanel from "./VKarmaContentPanel";
 import VKarmaExplorerSideToolbar from "./VKarmaExplorerSideToolbar";
-import { ITabs, IVKarmaPanelProps } from "./VKarmaPanel.types";
+import { ITabs, IVKarmaPanelProps } from "./VKarmaStudio.types";
 
 
 

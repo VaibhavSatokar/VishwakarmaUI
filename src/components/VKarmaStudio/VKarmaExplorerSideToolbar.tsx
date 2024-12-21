@@ -5,7 +5,7 @@ import ViewComfyIcon from '@mui/icons-material/ViewComfy';
 import FolderOpenIcon from '@mui/icons-material/FolderOpen';
 import SettingsIcon from '@mui/icons-material/Settings';
 import InfoIcon from '@mui/icons-material/Info';
-import { IVKarmaExplorerSideToolbarProps } from "./VKarmaPanel.types";
+import { IVKarmaExplorerSideToolbarProps } from "./VKarmaStudio.types";
 
 
 // Icon Mapping: Map string names to actual icon components

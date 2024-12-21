@@ -10,6 +10,7 @@ export interface ITabs {
 
 export interface IVKarmaExplorerSideToolbarProps {
   value: string;
+  orientation?: "horizontal" | "vertical";
   onTabChange: (event: React.SyntheticEvent, newValue: string) => void;
   TabsData: ITabs[]; // Data for the tabs, including the icon and value
 }
@@ -20,11 +21,7 @@ export interface IVKarmaContentPanelProps {
 }
 
 
-export interface IVKarmaPanelProps {
+export interface IVKarmaPanelProps extends IVKarmaExplorerSideToolbarProps, IVKarmaContentPanelProps {
   activePanel: string | null;
-  onTabChange: (event: React.SyntheticEvent, newValue: string) => void;
-  value: string;
-  TabsData: ITabs[];
-  panels: Record<string, React.ReactNode>;
 }
 

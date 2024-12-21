@@ -11,9 +11,5 @@ export { default as VKarmaStack } from './components/VKarmaStack';
 export * from './components/VKarmaStack/VKarmaStack.types';
 
 export { default as VKarmaPanel } from './components/VKarmaStudio/VKarmaPanel';
-export * from './components/VKarmaStudio/VKarmaPanel.types';
+export * from './components/VKarmaStudio/VKarmaStudio.types';
 
-// Test Example
-
-export { default as VKButton } from './components/Button';
-export * from './components/Button/Button.types';
